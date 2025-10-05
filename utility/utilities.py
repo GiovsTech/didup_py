@@ -25,7 +25,7 @@ class Utility():
             "grant_type": "refresh_token",
             "scope": scopes,
             "client_id": ClientId,
-            "redirect_uri": redirect_uri
+            "redirect_uri": redirectUri
         }
 
         headers = {

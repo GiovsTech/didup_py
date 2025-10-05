@@ -46,7 +46,7 @@ class ArgoClient():
                     self.token = json.load(f)
 
                 if self.token.get("expires_at") and self._is_token_expired(self.token["expires_at"]):
-                    new_token = await self.utilities.refresh_token()
+                    new_token = self.utilities.refresh_token()
                     if not new_token:
                         self.token = await getToken(self.account_credentials)
                         self._write_token_file()
