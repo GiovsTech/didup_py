@@ -12,6 +12,6 @@ A scheduled ETA is not available right now.
 This project is not affiliated with Argo Software SRL
 
 
-### DEVELOPER ONLY
+### TO DO
 
 FIX THE TOKEN PARSED FROM FILE
