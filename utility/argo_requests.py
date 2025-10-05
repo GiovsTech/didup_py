@@ -43,6 +43,8 @@ async def sendArgoRequest(client, path, method, body, headers, parseBody= True):
                 default_headers["Authorization"] = f"Bearer {client.token['access_token']}"
                 request_kwargs["headers"] = default_headers
                 response = requests.request(method, url, **request_kwargs)
+
+
         return_data = {
             "response": response.json() if parseBody else None,
             "status": response.status_code,
