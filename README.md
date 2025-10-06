@@ -1,5 +1,5 @@
 # didup_py
-A simple and asyncronous API for the italian Argo DidUp Platform
+A simple and asyncronous API for the italian Argo DidUp platform
 
 Important Warning:
 
