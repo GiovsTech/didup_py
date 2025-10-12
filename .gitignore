@@ -202,7 +202,8 @@ cython_debug/
 .cursorindexingignore
 
 #template
-
+examples/.telegram_bot
+examples/.argo
 # Marimo
 marimo/_static/
 marimo/_lsp/
